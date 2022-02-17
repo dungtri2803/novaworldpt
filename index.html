@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-menu">
+          <div class="logo">
+            <a href=""><img src="images/logo-200x63.png" alt="" /></a>
+          </div>
+          <ul class="header-menu-list" id="menu">
+            <div id="close" onclick="hideMenu()" class="bx bx-x"></div>
+            <li class="header-menu-item">
+              <a href="#banner" class="header-menu-link">Trang chủ</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#about" class="header-menu-link">Giới thiệu</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#project" class="header-menu-link">Dự án</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#location" class="header-menu-link">Vị trí</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#feature" class="header-menu-link">Sản phẩm</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#news" class="header-menu-link">Tin tức</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#footer" class="header-menu-link">Liên hệ</a>
+            </li>
+          </ul>
+          <div id="menu-bar" onclick="showMenu()" class="bx bx-menu"></div>
+        </div>
+      </header>
+      <section class="banner" id="banner">
+        <div class="banner-slider">
+          <div class="banner-list mySwiper">
+            <div class="swiper-wrapper">
+              <div class="banner-item swiper-slide">
+                <img src="images/b4.jpg" alt="" width="100%" />
+              </div>
+              <div class="banner-item swiper-slide">
+                <img src="images/background.png" alt="" width="100%" />
+              </div>
+              <div class="banner-item swiper-slide">
+                <img src="images/b3.jpg" alt="" width="100%" />
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+      <section class="about" id="about" data-aos="fade-up" data-aos-duration='1000'>
+        <div class="about-heading">
+          <h1 class="heading-title">Giới thiệu</h1>
+          <p class="heading-desc">
+            “NovaWorld Phan Thiet - Siêu Thành phố Biển - Du lịch - Sức khoẻ là
+            dự án rất khác biệt. Dự án được quy hoạch để tạo nên một điểm đến
+            nghỉ dưỡng hấp dẫn, đầy sức sống, vui khỏe, an toàn, cho một cộng
+            đồng quốc tế đẳng cấp."
+          </p>
+        </div>
+        <div class="about-desc">
+          <div class="about-heading">
+            <h1>6 DẤU ẤN RIÊNG CHỈ CÓ TẠI</h1>
+          </div>
+          <div class="logo">
+            <img src="images/logo-200x63.png" alt="" />
+          </div>
+        </div>
+        <div class="about-list">
+          <div class="about-item">
+            <div class="about-img">
+              <img src="images/ab1.jpeg" alt="" />
+            </div>
+            <div class="about-content">
+              <h2>VỊ TRÍ VÀNG MỞ NGÀN KẾT NỐI</h2>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-img">
+              <img src="images/ab2.jpg" alt="" />
+            </div>
+            <div class="about-content">
+              <h2>SIÊU THÀNH PHỐ BIỂN - DU LICH - SỨC KHỎE</h2>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-img">
+              <img src="images/ab3.jpg" alt="" />
+            </div>
+            <div class="about-content">
+              <h2>HÀNG TRĂM TIỆN ÍCH QUỐC TẾ ĐẶC BIỆT</h2>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-img">
+              <img src="images/ab4.jpg" alt="" />
+            </div>
+            <div class="about-content">
+              <h2>ĐIỂM ĐẾN QUỐC TẾ MỚI</h2>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-img">
+              <img src="images/ab5.png" alt="" />
+            </div>
+            <div class="about-content">
+              <h2>HÀNG TRĂM ĐỐI TÁC DANH TIẾNG THẾ GIỚI</h2>
+            </div>
+          </div>
+          <div class="about-item">
+            <div class="about-img">
+              <img src="images/ab6.jpg" alt="" />
+            </div>
+            <div class="about-content">
+              <h2>ĐA ĐẠNG PHONG CÁCH ĐA DẠNG SẢN PHẨM</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="project" id="project">
+        <div class="project-heading" data-aos="fade-right" data-aos-duration='1000'>
+          <h1>Tổng Quan <span>Dự Án</span></h1>
+        </div>
+        <div class="project-list">
+          <div class="project-item" data-aos="fade-right" data-aos-duration='1000'>
+            <ul>
+              <li>
+                <a href="">Đơn vị phát triển: <span>Tập đoàn Novaland</span></a>
+              </li>
+              <li>
+                <a href="">
+                  Vị trí: <span>Tiến Thành, Phan Thiết, Bình Thuận</span></a
+                >
+              </li>
+              <li>
+                <a href=""> Tổng diện tích dự án: <span>1.000ha</span></a>
+              </li>
+              <li>
+                <a href=""
+                  >Tổng sản phẩm giai đoạn 1:
+                  <span
+                    >2800 căn phát triển sản phẩm: Shophouse, Nhà phố liền kề,
+                    biệt thự, khách sạn 5 sao.</span
+                  >
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  Shophouse: <span>Diện tích từ 72m2 đến 200m2</span></a
+                >
+              </li>
+              <li>
+                <a href="">
+                  Nhà phố liền kề: <span>Diện tích từ 100m2 đến 210m2</span></a
+                >
+              </li>
+              <li>
+                <a href=""
+                  >Biệt thự: <span>Diện tích từ 150m2 đến 300m2</span></a
+                >
+              </li>
+              <li>
+                <a href=""> Điều kiện bàn giao thô hoàn thiện mặt ngoài</a>
+              </li>
+              <li>
+                <a href="">
+                  Thời gian dự kiến bàn giao: <span>Từ tháng 12/2020</span></a
+                >
+              </li>
+              <li><a href="">Đường bờ biển 7,2km</a></li>
+              <li>
+                <a href=""
+                  >Kết nối thuận tiện, đa dạng tiện ích: Trường học, bệnh viện
+                  cao cấp, TTTM....</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="project-item" data-aos="fade-left" data-aos-duration='1000'>
+            <img src="images/vt.jpg" alt="" />
+            <img src="images/b3.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="location" id="location" data-aos="fade-up"
+      data-aos-anchor-placement="bottom-bottom">
+        <div class="location-heading">
+          <h1>vị trí <span>dự án</span></h1>
+        </div>
+        <div class="location-list">
+          <div class="location-item">
+            <p>VỊ TRÍ VÀNG MỞ NGÀN KẾT NỐI.<br /></p>
+            <span>NovaWorld Phan Thiet quy mô 1.000 ha, được quy hoạch bài bản sẽ
+              gia tăng giá trị nhờ đòn bẩy hạ tầng, góp phần đưa Phan Thiết trở
+              thành điểm đến du lịch, nghỉ dưỡng quốc tế được yêu thích
+              nhất.</span>
+              
+            
+            <ul>
+              <li>
+                <a href=""
+                  ><span><i class="bx bxs-map"></i></span> 20 phút từ NovaWorld
+                  đến thành phố Phan Thiết.</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span><i class="bx bxs-map"></i></span>15 phút đến trung tâm
+                  thành phố Phan Thiết.</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span><i class="bx bxs-map"></i></span>1h40 phút kết nối tới
+                  thành phố HCM qua cao tốc.</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><span><i class="bx bxs-map"></i></span>55 phút đến sân bay
+                  quốc tế long thành</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="location-item">
+            <img src="images/loca.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+      <section class="land" id="land">
+        <img src="images/mb.jpg" alt="" />
+      </section>
+      <section class="feature" id="feature">
+        <div class="feature-heading" data-aos="fade-up" data-aos-duration='1000'>
+          <h1>9 Phân Khu tại <span>NOVAWORLD Phan Thiết</span></h1>
+        </div>
+        <div class="feature-slider" data-aos="fade-left" data-aos-duration='1000'>
+          <div class="feature-list mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/florida.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>florida</h2>
+                  </div>
+                </div>         
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/festivaltown.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>Festival Town</h2>
+                  </div>
+                </div> 
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/santamonica.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>Santa monica</h2>
+                  </div>
+                </div>          
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/boutiquehotel.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>boutique hotel</h2>
+                  </div>
+                </div>    
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/festivalstreet.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>FESTIVAL STREET</h2>
+                  </div>
+                </div>     
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/ocean.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>OCEAN RESIDENCE</h2>
+                  </div>
+                </div>            
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/waikiki.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>WAIKIKI</h2>
+                  </div>
+                </div>            
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/PGAgolfvilla.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>PGA GOLF VILLAS</h2>
+                  </div>
+                </div>            
+              </div>
+              <div class="swiper-slide">
+                <div class="feature-item">
+                  <img src="images/novaworldcenter.jpg" alt="" />
+                  <div class="feature-content">
+                    <h2>NOVAWORLD CENTER</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products" id="products" data-aos="fade-left" data-aos-duration='1000'>
+        <div class="products-heading">
+          <h1>Biệt thự <span>NovaWorld</span></h1>
+        </div>
+        <div class="products-list">
+          <div class="products-item">
+            <div class="products-content">
+              <h2>Biệt thự song lập điển hình</h2>
+              <p>diện tích khu đất 150m2</p>
+              <p>diện tích sàn sử dụng 146m2</p>
+              <p> Không bao gồm diện tích mái, sân thượng, ô trống tại vị trí cầu thang</p>
+              <p>Biệt thự Novaworld Phan Thiết sẽ được thiết kế với đa dạng các tiện ích như: 7.5mx20m, 8mx20m, 10x20m và 12mx20m.</p>
+              <img src="images/btsl4.jpg" alt=""> 
+            </div>
+          </div>
+          <div class="products-item">
+            <div class="products-img">
+              <img src="images/btsl5.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="products-list">
+          <div class="products-item">
+            <div class="products-content">
+              <h2>Nhà phổ biến điển hình</h2>
+              <p>diện tích khu đất 120m2</p>
+              <p>diện tích sàn sử dụng 126m2</p>
+              <p>Nhà phố Novaworld Phan Thiết sẽ được thiết kế với đa dạng các diện tích như: 5mx20m, 6mx20m và 6mx24m.</p>
+              <img src="images/mnpb.jpg" alt=""> 
+            </div>
+          </div>
+          <div class="products-item">
+            <div class="products-img">
+              <img src="images/mnpb1.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="hometown" id="hometown" data-aos="fade-right" data-aos-duration='1000'>
+        <div class="hometown-heading">
+          <h1>Nhà phố thương mại <span>NovaWorld</span></h1>
+        </div>
+        <div class="hometown-list">
+          <div class="hometown-item">
+            <div class="hometown-img">
+              <img src="images/nptm3.jpg" alt="">
+            </div>
+            <div class="hometown-content">
+              <h2>Nhà phố</h2>
+              <p>Diện tích 6 x 20m</p>
+            </div>
+          </div>
+          <div class="hometown-item">
+            <div class="hometown-img">
+              <img src="images/nptm.jpg" alt="">
+            </div>
+            <div class="hometown-content">
+              <h2>Nhà phố thương mại biển</h2>
+              <p>diện tích 9 x 22m</p>
+            </div>
+          </div>
+          <div class="hometown-item">
+            <div class="hometown-img">
+              <img src="images/nptm1.jpg" alt="">
+            </div>
+            <div class="hometown-content">
+              <h2>Nhà phố thương mại</h2>
+              <p>diện tích 9 x 22m</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="mall" data-aos="fade-left" data-aos-duration='1000'>
+        <div class="mall-heading">
+          <h1>Nhà phố thương mại 5 tầng <span>NovaWorld</span></h1>
+        </div>
+        <img src="images/ntm.jpg" alt=""/>
+      </section>
+      <section class="news" id="news" data-aos="fade-left" data-aos-duration='1000'>
+        <div class="news-heading">
+          <h1>Tin tức dự án <span>NovaWorld Phan thiết</span></h1>
+        </div>
+        <div class="news-list swiper">
+          <div class="swiper-wrapper">
+            <div class="news-item swiper-slide">
+              <div class="news-img">
+                <img src="images/news.jpg" alt="">
+              </div>
+              <div class="news-content">
+                <h2>
+                  NovaWorld Phan Thiết và chuỗi tiện ích đẳng cấp
+                </h2>
+                <p>Ra mắt từ năm 2020, đến nay, Siêu thành phố Biển - Du lịch - Sức khỏe NovaWorld Phan Thiết vẫn là Đô thị du lịch thu hút được nhiều sự quan tâm của khách hàng.
+                </p>
+              </div>
+            </div>
+            <div class="news-item swiper-slide">
+              <div class="news-img">
+                <img src="images/news1.jpg" alt="">
+              </div>
+              <div class="news-content">
+                <h2>
+                  Novaworld là gì? Quy định sở hữu 50 năm của Novaworld Phan Thiết
+                </h2>
+                <p>Novaworld Phan Thiết sở hữu bao lâu hay dòng sản phẩm Novaworld là gì? Là câu hỏi nhiều khách hàng khi quan tâm đến dự án Novaworld Phan Thiết tại Bình Thuận và Novaworld Hồ Tràm của Novaland. Bài viết duới đây, chúng tôi cập nhật đầy đủ thông tin này.
+                </p>
+              </div>
+            </div>
+            <div class="news-item swiper-slide">
+              <div class="news-img">
+                <img src="images/news2.jpg" alt="">
+              </div>
+              <div class="news-content">
+                <h2>
+                  NovaWorld Phan Thiết và chuỗi tiện ích đẳng cấp
+                </h2>
+                <p>Ra mắt từ năm 2020, đến nay, Siêu thành phố Biển - Du lịch - Sức khỏe NovaWorld Phan Thiết vẫn là Đô thị du lịch thu hút được nhiều sự quan tâm của khách hàng.
+                </p>
+              </div>
+            </div>
+            <div class="news-item swiper-slide">
+              <div class="news-img">
+                <img src="images/news3.jpg" alt="">
+              </div>
+              <div class="news-content">
+                <h2>
+                  NovaWorld Phan Thiết và chuỗi tiện ích đẳng cấp
+                </h2>
+                <p>Khu đại đô thị Novaworld Phan Thiết do Novaland đầu tư và phát triển với quy mô 1.000 ha, lần đầu tiên xuất hiện tại thành phố biển xinh đẹp tỉnh Bình Thuận. Là dự án tiên phong của Novaland ở mô hình đại đô thị, cùng chúng tôi cập nhật mới tiến độ Tháng 11/2021 và giá bán của Novaworld Phan Thiết tính tới thời điểm hiện tại.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="more">Xem thêm</div>
+        </div>
+      </section>
+      <section class="footer" id="footer">
+        <div class="loaded"></div>
+        <div class="footer-heading">
+          <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+        </div>
+        <div class="logo">
+          <img src="images/logo-200x63.png" alt="">
+        </div>
+        <div class="footer-title">
+          <h1>ĐĂNG KÝ NHẬN THÔNG TIN - NOVAWORLD PHAN THIẾT</h1>
+        </div>
+          <form action="" class="form">
+            <div class="form-name">
+              <input type="text" name="your_name" placeholder="Họ và tên*"id="">
+            </div>
+            <div class="form-email">
+              <input type="text" name="email" placeholder="email*"id="">
+            </div>
+            <div class="form-number">
+              <input type="text" name="number" placeholder="số điện thoại*"id="">
+            </div>
+            <p>
+              <button class="btn" type="submit">gửi yêu cầu</button>
+            </p>
+          </form>
+          <div class="title-contact">
+            <p>Đường Lạc Long Quân, phường Tiến Thành, TP. Phan Thiết, tỉnh Bình Thuận</p>
+          </div>
+          <ul>
+            <li><a href=""><i class='bx bxs-phone'></i>0828.35.3838</a></li>
+            <li><a href=""><i class='bx bxl-gmail' ></i>novaworldphanthiet.land@gmail.com</a></li>
+            <li><a href=""><i class='bx bxs-map' ></i>www.novaworldphanthiet.land</a></li>
+          </ul>
+      </section>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>
