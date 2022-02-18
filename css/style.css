@@ -40,10 +40,10 @@ html{
 }
 section{
     padding: 3rem 8%;
-    
+
 }
 .main{
-    max-width: 1440px;
+    max-width: 1440px;  
     margin: 0 auto;
 }
 .header{
@@ -492,6 +492,9 @@ section{
     color: var(--gray-dark);
 }
 /* mall */
+.mall{
+    overflow: hidden;
+}
 .mall .mall-heading{
     position: relative;
     margin-bottom: 3rem;
@@ -638,6 +641,7 @@ section{
 .footer .form{
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 3rem;
 }
@@ -681,6 +685,9 @@ section{
     display: flex;
     align-items: center;
     padding: 0 2rem;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 1.6rem;
 }
 .footer ul li a{
     color: var(--white);
@@ -775,9 +782,55 @@ section{
     .location .location-list .location-item ul li a{
         font-size: 1.4rem;
     }
+    .products .products-list .products-item .products-img img{
+        height: 35rem;
+    }
+    .products .products-list .products-item .products-content img{
+        height: 20rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-img img{
+        height: 20rem;
+    }
+    .news .more{
+        margin-top: 2rem;
+    }
+    .footer .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer .form input{
+        display: block;
+        border-radius: .5rem;
+        margin-top: 1rem;
+    }
+    .footer .form input{
+        width: 30rem;
+    }
+    .footer .form .form-name, .form-email, .form-number{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .form p{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .footer .form .btn{
+        width: 19rem;
+        margin-top: 2rem;
+    }
+    .footer .logo, .footer-title h1{
+        font-size: 2.5rem;
+    }
+
+
 }
 
 @media (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
     .header .logo{
         width: 15rem;
     }
@@ -834,6 +887,27 @@ section{
     .products .products-list .products-item .products-content h2{
         font-size: 2rem;
     }
+    .project .project-list .project-item img{
+        height: 20rem;
+    }
+    .location .location-list .location-item img{
+        height: 25rem;
+    }
+    .news .news-list .news-item .news-img img{
+        height: 18rem;
+    }
+    .footer .footer-heading h1{
+        font-size: 2.5rem;
+    }
+    .footer-title h1{
+        font-size: 2rem;
+    }
+    .footer .title-contact p{
+        font-size: 1.5rem;
+    }
+    .footer ul li{
+        font-size: 1.2rem;
+    }
     
 
 }
@@ -846,10 +920,89 @@ section{
     }
     .banner .banner-slider .banner-list .banner-item img{
         width: 100%;
-        height: 30rem;
-        object-fit: cover;
-        object-position: center;
+        height: 40rem;
         padding-top: 0;
+    }
+    .about .about-list .about-item .about-img img{
+        height: 12rem;
+    }
+    .about .about-list .about-item .about-content h2{
+        font-size: 1rem;
+    }
+    .project .project-heading h1{
+        font-size: 2.5rem;
+    }
+    .project .project-list .project-item ul li a{
+        font-size: 1rem;
+    }
+    .project .project-list .project-item img{
+        height: 15rem;
+    }
+    .project .project-list .project-item img:nth-child(2){
+        margin-top: 5rem;
+    }
+    .location .location-heading h1{
+        font-size: 2.5rem;
+    }
+    .location .location-list .location-item p{
+        font-size: 1.2rem;
+    }
+    .location .location-list .location-item span{
+        font-size: 1rem;
+    }
+    .location .location-list .location-item ul li a{
+        font-size: 1.2rem;
+    }
+    .location .location-list .location-item ul li span{
+        font-size: 1.5rem;
+    }
+    .location .location-list .location-item img{
+        height: 20rem;
+    }
+    .feature .feature-heading h1{
+        font-size: 2.5rem;
+    }
+    .products .products-heading h1{
+        font-size: 2.5rem;
+    }
+    .products .products-list .products-item .products-content h2{
+        font-size: 1.6rem;
+    }
+    .products .products-list .products-item .products-content p{
+        font-size: 1rem;
+    }
+    .products .products-list .products-item .products-img img{
+        height: 20rem;
+    }
+    .products .products-list .products-item .products-content img{
+        height: 12rem;
+    }
+    .hometown .hometown-heading h1{
+        font-size: 2.5rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-img img{
+        height: 15rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-content h2{
+        font-size: 1.6rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-content p{
+        font-size: 1.2rem;
+    }
+    .mall .mall-heading h1{
+        font-size: 2.5rem;
+    }
+    .news .news-heading h1{
+        font-size: 2.5rem;
+    }
+    .news .news-list .news-item .news-img img{
+        height: 25rem;
+    }
+    .news .more{
+        margin-top: 3rem;
+    }
+    .footer ul{
+        flex-direction: column;
     }
 
 }
