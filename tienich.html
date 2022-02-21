@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novaworld</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-menu">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo-200x63.png" alt="" /></a>
+          </div>
+          <ul class="header-menu-list" id="menu">
+            <div id="close" onclick="hideMenu()" class="bx bx-x"></div>
+            <li class="header-menu-item">
+              <a href="index.html" class="header-menu-link">Trang chủ</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#about" class="header-menu-link">Giới thiệu</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#project" class="header-menu-link">Dự án</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#localtion" class="header-menu-link">Vị trí</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#feature" class="header-menu-link">Sản phẩm</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#news" class="header-menu-link">Tin tức</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#footer" class="header-menu-link">Liên hệ</a>
+            </li>
+          </ul>
+          <div id="menu-bar" onclick="showMenu()" class="bx bx-menu"></div>
+        </div>
+      </header>
+      <section class="exten">
+        <div class="exten-heading">
+          <h2>HÀNG TRĂM
+            TIỆN ÍCH <span>QUỐC TẾ ĐẶC BIỆT</span></h2>
+        </div>
+        <div class="exten-img">
+            <img src="images/b3.jpg" alt="">
+        </div>
+        <div class="exten-list">
+            <div class="exten-item">
+                <div class="exten-content">
+                    <h2>CỤM SÂN GOLF PGA
+                        36 HỐ ĐỘC QUYỀN</h2>
+                    <p>Được thiết kế bởi huyền thoại “Cá mập trắng” Greg Norman và là cụm sân golf độc quyền
+                        36 hố mang thương hiệu PGA đầu tiên tại Việt Nam có khung cảnh nhìn ra toàn vịnh biển.
+                        Đặc biệt, sân golf PGA Ocean mang dấu ấn với hố 19 hình sao biển, mang đến trải nghiệm
+                        mới lạ và thử thách mà các golfer đều muốn chinh phục.
+                        Sân golf nằm ngay bên trong tổ hợp NovaWorld Phan Thiet quy mô 1.000 ha với tầm nhìn ôm trọn biển Tiến Thành, Phan Thiết, Bình Thuận. Đây cũng là cụm sân golf đầu tiên tại Việt Nam có bản quyền độc quyền từ PGA - Hiệp hội Golf chuyên nghiệp Mỹ để đạt tiêu chuẩn tổ chức các giải thi đấu chuyên nghiệp trong hệ thống của tổ chức này.</p>
+                </div>
+            </div>
+            <div class="exten-item">
+                <div class="exten-img">
+                    <img src="images/golf.jpg" alt="">
+                </div>
+            </div>        
+        </div>
+        <div class="exten-list">
+            <div class="exten-item">
+                <div class="exten-img">
+                    <img src="images/bg3.jpg" alt="">
+                </div>
+            </div>
+            <div class="exten-item">
+                <div class="exten-content">
+                    <h2>TỔ HỢP CÔNG VIÊN
+                        GIẢI TRÍ 25HA</h2>
+                    <p>Được định vị là công trình vui chơi giải trí trọng điểm của NovaWorld Phan Thiet, tổ
+                        hợp công viên giải trí có mức vốn đầu tư 100 triệu USD, quy mô 25 ha, gồm 3 khu:
+                        công viên nước, công viên giải trí và cụm chương trình biểu diễn kỹ xảo hành động.
+                        Tổ hợp công viên giải trí mang đến trải nghiệm giải trí đẳng cấp quốc tế ngay tại
+                        NovaWorld Phan Thiet.</p>
+                </div>
+            </div>
+        </div>
+        <div class="exten-list">
+            <div class="exten-item">
+                <div class="exten-content">
+                    <h2>CÔNG VIÊN
+                        GIẢI TRÍ
+                        CIRCUS LAND</h2>
+                    <p>Circus Land là công viên giải trí ven biển được thiết kế theo phong cách những khu hội chợ náo nhiệt
+                        của Mỹ với cảnh quan sinh động, tạo không khí nhộn nhịp, đầy màu sắc cả ngày lẫn đêm.<br/>
+                        Cirus Land rộng 1,5 ha, tổng mức đầu tư 25 triệu đô la Mỹ, được tư vấn thiết kế bởi IRMS Company với
+                        hàng loạt trò chơi giải trí từ các nhà cung cấp hàng đầu như Techinical Park, Bertazzon Fabbri, SBR Visa...<br/>
+                        Dự kiến, Circus Land sẽ vận hành chính thức vào đầu năm 2022.</p>
+                </div>
+            </div>
+            <div class="exten-item">
+                <div class="exten-img">
+                    <img src="images/cv.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="exten-full">
+            <h2>CÔNG VIÊN BIỂN
+                MIAMI BIKINI BEACH
+                16HA SÔI ĐỘNG</h2>
+                <img src="images/be2.jpg" alt="">
+        </div>
+        <h2>CỤM THỂ THAO SPORT COMPLEX</h2>
+        <div class="exten-list">
+            <div class="exten-item">
+                <img src="images/sp.jpg" alt="">
+            </div>
+            <div class="exten-item">
+                <img src="images/sp1.jpg" alt="">
+            </div>
+            <div class="exten-item">
+                <img src="images/sp2.jpg" alt="">
+            </div>
+        </div>
+        <div class="exten-full">
+            <h2>TRUNG TÂM GIẢI TRÍ
+                TRONG NHÀ - F.E.C</h2>
+                <p>Với quy mô 30.000m2, trung tâm giải trí trong nhà F.E.C đặt tại NovaWolrd Center là
+                    một trong những F.E.C lớn nhất khu vực Đông Nam Á. Sở hữu nhiều trò chơi hấp dẫn
+                    phù hợp với mọi lứa tuổi, NovaWorld Center được xây dựng dựa trên câu chuyện về
+                    hai vương quốc lửa và băng sẽ là điểm đến vui chơi lý tưởng cho cả gia đình.</p>
+                    <img src="images/tm.png" alt="">
+        </div>
+        <div class="exten-full">
+            <h2>TRUNG TÂM BIỂU DIỄN
+                ARENA 10.000 CHỖ</h2>
+                <p>Nơi tổ chức các sự kiện quốc tế, không gian văn hóa mới của Việt Nam.</p>
+                    <img src="images/news1.jpg" alt="">
+        </div>
+        <div class="exten-full">
+            <h2>NHÀ HÁT NGHỆ THUẬT
+                1.OOO CHỖ</h2>
+                <p>Nhà hát nghệ thuật 1.000 chỗ đặt tại NovaWorld Center với thiết kế ấn tượng
+                    soi bóng bên hồ bán nguyệt là nơi tổ chức triển lãm và biểu diễn nghệ thuật.</p>
+                    <img src="images/nh.jpg" alt="">
+        </div>
+        <div class="exten-list">
+            <div class="exten-item">
+                <h2>HỆ THỐNG KHÁCH SẠN
+                    5 SAO QUỐC TẾ</h2>
+                    <p>Hệ thống khách sạn đẳng cấp được vận hành bởi các đối tác hàng đầu thế giới: Hyatt,
+                        Movenpick, Novotel,... đem đến không gian nghỉ dưỡng sang trọng, chất lượng, để du
+                        khách hưởng thụ trọn vẹn kỳ nghỉ đáng nhớ tại NovaWorld Phan Thiet.</p>
+                        <img src="images/ks1.jpg" alt="">
+            </div>
+            <div class="exten-item">
+                <img src="images/ks.jpg" alt="">
+            </div>
+        </div>
+      </section>
+
+      <section class="footer" id="footer">
+        <div class="loaded"></div>
+        <div class="footer-heading">
+          <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+        </div>
+        <div class="logo">
+          <img src="images/logo-200x63.png" alt="" />
+        </div>
+        <div class="footer-title">
+          <h1>ĐĂNG KÝ NHẬN THÔNG TIN - NOVAWORLD PHAN THIẾT</h1>
+        </div>
+        <form action="" class="form">
+          <div class="form-name">
+            <input
+              type="text"
+              name="your_name"
+              placeholder="Họ và tên*"
+              id=""
+            />
+          </div>
+          <div class="form-email">
+            <input type="text" name="email" placeholder="email*" id="" />
+          </div>
+          <div class="form-number">
+            <input
+              type="text"
+              name="number"
+              placeholder="số điện thoại*"
+              id=""
+            />
+          </div>
+          <p>
+            <button class="btn" type="submit">gửi yêu cầu</button>
+          </p>
+        </form>
+        <div class="title-contact">
+          <p>
+            Đường Lạc Long Quân, phường Tiến Thành, TP. Phan Thiết, tỉnh Bình
+            Thuận
+          </p>
+        </div>
+        <ul>
+          <li>
+            <a href=""><i class="bx bxs-phone"></i></a>0828.35.3838
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-gmail"></i></a
+            >novaworldphanthiet.land@gmail.com
+          </li>
+          <li>
+            <a href=""><i class="bx bxs-map"></i></a>www.novaworldphanthiet.land
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

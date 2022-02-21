@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Novaworld</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- icon -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <div class="main">
+      <header class="header">
+        <div class="header-menu">
+          <div class="logo">
+            <a href="index.html"><img src="images/logo-200x63.png" alt="" /></a>
+          </div>
+          <ul class="header-menu-list" id="menu">
+            <div id="close" onclick="hideMenu()" class="bx bx-x"></div>
+            <li class="header-menu-item">
+              <a href="index.html" class="header-menu-link">Trang chủ</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#about" class="header-menu-link">Giới thiệu</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#project" class="header-menu-link">Dự án</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#localtion" class="header-menu-link">Vị trí</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#feature" class="header-menu-link">Sản phẩm</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#news" class="header-menu-link">Tin tức</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="#footer" class="header-menu-link">Liên hệ</a>
+            </li>
+          </ul>
+          <div id="menu-bar" onclick="showMenu()" class="bx bx-menu"></div>
+        </div>
+      </header>
+      <section class="Diversity">
+        <div class="Diversity-heading">
+          <h1>ĐA DẠNG PHONG CÁCH
+             <span>ĐA DẠNG SẢN PHẨM</span></h1>
+        </div>
+        <p>
+            Hoàn thiện bộ sưu tập NovaWorld Collection.
+        </p>
+        <img src="images/p1.jpg" alt="">
+        <img src="images/p2.jpg" alt="">
+      </section>
+
+      <section class="footer" id="footer">
+        <div class="loaded"></div>
+        <div class="footer-heading">
+          <h1>LIÊN HỆ VỚI CHÚNG TÔI</h1>
+        </div>
+        <div class="logo">
+          <img src="images/logo-200x63.png" alt="" />
+        </div>
+        <div class="footer-title">
+          <h1>ĐĂNG KÝ NHẬN THÔNG TIN - NOVAWORLD PHAN THIẾT</h1>
+        </div>
+        <form action="" class="form">
+          <div class="form-name">
+            <input
+              type="text"
+              name="your_name"
+              placeholder="Họ và tên*"
+              id=""
+            />
+          </div>
+          <div class="form-email">
+            <input type="text" name="email" placeholder="email*" id="" />
+          </div>
+          <div class="form-number">
+            <input
+              type="text"
+              name="number"
+              placeholder="số điện thoại*"
+              id=""
+            />
+          </div>
+          <p>
+            <button class="btn" type="submit">gửi yêu cầu</button>
+          </p>
+        </form>
+        <div class="title-contact">
+          <p>
+            Đường Lạc Long Quân, phường Tiến Thành, TP. Phan Thiết, tỉnh Bình
+            Thuận
+          </p>
+        </div>
+        <ul>
+          <li>
+            <a href=""><i class="bx bxs-phone"></i></a>0828.35.3838
+          </li>
+          <li>
+            <a href=""><i class="bx bxl-gmail"></i></a
+            >novaworldphanthiet.land@gmail.com
+          </li>
+          <li>
+            <a href=""><i class="bx bxs-map"></i></a>www.novaworldphanthiet.land
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/slider.js"></script>
+  </body>
+</html>

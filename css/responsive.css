@@ -1,0 +1,332 @@
+@media (max-width: 1200px) {
+    .header .header-menu #menu-bar,#close{
+        display: block;
+    }
+    .header .header-menu #close{
+        margin: 1rem;
+    }
+    .header .header-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header .header-menu .header-menu-list{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -20rem;
+        background-color: var(--white);
+        height: 100vh;
+        width: 20rem;
+        text-align: left;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    }
+    .header .header-menu .header-menu-list .header-menu-item{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .header .header-menu .search{
+        display: none;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .header .header-menu #menu-bar,#close{
+        display: block;
+    }
+    .header .header-menu #close{
+        margin: 1rem;
+    }
+    .header .header-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header .header-menu .header-menu-list{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -20rem;
+        background-color: var(--white);
+        height: 100vh;
+        width: 20rem;
+        text-align: left;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    }
+    .header .header-menu .header-menu-list .header-menu-item{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .header .header-menu .search{
+        display: none;
+    }
+    .banner .banner-slider .banner-list .banner-item img{
+        width: 100%;
+        height: 50rem;
+        object-fit: cover;
+        object-position: center;
+    }
+    .about .about-list .about-item .about-content h2{
+        font-size: 1.4rem;
+    }
+    .location .location-list .location-item p{
+        font-size: 1.4rem;
+        line-height: 1.5;
+        color: var(--white);
+        margin-bottom: .5rem;
+    }
+    .location .location-list .location-item span{
+        font-size: 1.4rem;
+    }
+    .location .location-list .location-item ul li a{
+        font-size: 1.4rem;
+    }
+    .products .products-list .products-item .products-img img{
+        height: 35rem;
+    }
+    .products .products-list .products-item .products-content img{
+        height: 20rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-img img{
+        height: 20rem;
+    }
+    .news .more{
+        margin-top: 2rem;
+    }
+    .footer .form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer .form input{
+        display: block;
+        border-radius: .5rem;
+        margin-top: 1rem;
+    }
+    .footer .form input{
+        width: 30rem;
+    }
+    .footer .form .form-name, .form-email, .form-number{
+        display: flex;
+        justify-content: center;
+    }
+    .footer .form p{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .footer .form .btn{
+        width: 19rem;
+        margin-top: 2rem;
+    }
+    .footer .logo, .footer-title h1{
+        font-size: 2.5rem;
+    }
+    .beach .beach-list .beach-item img{
+        height: 15rem;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    html{
+        font-size: 50%;
+    }
+    .header .logo{
+        width: 15rem;
+    }
+    .header .header-menu #menu-bar,#close{
+        display: block;
+    }
+    .header .header-menu #close{
+        margin: 1rem;
+    }
+    .header .header-menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header .header-menu .header-menu-list{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -20rem;
+        background-color: var(--white);
+        height: 100vh;
+        width: 20rem;
+        text-align: left;
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+    }
+    .header .header-menu .header-menu-list .header-menu-item{
+        display: block;
+        padding: 1rem 2rem;
+    }
+    .header .header-menu .search{
+        display: none;
+    }
+    .banner .banner-slider .banner-list .banner-item img{
+        width: 100%;
+        height: 50rem;
+        object-fit: cover;
+        object-position: center;
+    }
+    .about .about-list .about-item .about-img img{
+        width: 100%;
+        height: 15rem;
+        object-fit: cover;
+        filter: brightness(0.6);
+        border-radius: 0.3rem;
+    }
+    .about .about-list .about-item .about-content h2{
+        font-size: 1.2rem;
+        color: var(--white);
+        line-height: 1.5;   
+        font-weight: 500;
+    }
+    .feature .feature-list .feature-item .feature-content h2{
+        font-size: 2rem;
+    }
+    .products .products-list .products-item .products-content h2{
+        font-size: 2rem;
+    }
+    .project .project-list .project-item img{
+        height: 20rem;
+    }
+    .location .location-list .location-item img{
+        height: 25rem;
+    }
+    .news .news-list .news-item .news-img img{
+        height: 18rem;
+    }
+    .footer .footer-heading h1{
+        font-size: 2.5rem;
+    }
+    .footer-title h1{
+        font-size: 2rem;
+    }
+    .footer .title-contact p{
+        font-size: 1.5rem;
+    }
+    .footer ul li{
+        font-size: 1.2rem;
+    }
+    .beach .beach-list .beach-item{
+        flex: 1 1 40%;
+        background-color: var(--white);
+    }
+    .beach .beach-list .beach-item img{
+        height: 20rem;
+    }
+    .exten .exten-list .exten-item{
+        flex: 1 1 60%;
+    }
+    .destination .destination-list .destination-item .destination-img img{
+        height: 20rem;
+    }
+    .florida .florida-list .florida-item .florida-img img{
+        height: 15rem;
+    }
+    .florida .florida-list .florida-item{
+        flex: 1 1 40%;
+    }
+    
+
+}
+@media (max-width: 456px) {
+    html{
+        font-size: 50%;
+    }
+    .header{
+        padding: 0.8rem;
+    }
+    .banner .banner-slider .banner-list .banner-item img{
+        width: 100%;
+        height: 40rem;
+        padding-top: 0;
+    }
+    .about .about-list .about-item .about-img img{
+        height: 12rem;
+    }
+    .about .about-list .about-item .about-content h2{
+        font-size: 1rem;
+    }
+    .project .project-heading h1{
+        font-size: 2.5rem;
+    }
+    .project .project-list .project-item ul li a{
+        font-size: 1rem;
+    }
+    .project .project-list .project-item img{
+        height: 15rem;
+    }
+    .project .project-list .project-item img:nth-child(2){
+        margin-top: 5rem;
+    }
+    .location .location-heading h1{
+        font-size: 2.5rem;
+    }
+    .location .location-list .location-item p{
+        font-size: 1.2rem;
+    }
+    .location .location-list .location-item span{
+        font-size: 1rem;
+    }
+    .location .location-list .location-item ul li a{
+        font-size: 1.2rem;
+    }
+    .location .location-list .location-item ul li span{
+        font-size: 1.5rem;
+    }
+    .location .location-list .location-item img{
+        height: 20rem;
+    }
+    .feature .feature-heading h1{
+        font-size: 2.5rem;
+    }
+    .products .products-heading h1{
+        font-size: 2.5rem;
+    }
+    .products .products-list .products-item .products-content h2{
+        font-size: 1.6rem;
+    }
+    .products .products-list .products-item .products-content p{
+        font-size: 1rem;
+    }
+    .products .products-list .products-item .products-img img{
+        height: 20rem;
+    }
+    .products .products-list .products-item .products-content img{
+        height: 12rem;
+    }
+    .hometown .hometown-heading h1{
+        font-size: 2.5rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-img img{
+        height: 15rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-content h2{
+        font-size: 1.6rem;
+    }
+    .hometown .hometown-list .hometown-item .hometown-content p{
+        font-size: 1.2rem;
+    }
+    .mall .mall-heading h1{
+        font-size: 2.5rem;
+    }
+    .news .news-heading h1{
+        font-size: 2.5rem;
+    }
+    .news .news-list .news-item .news-img img{
+        height: 25rem;
+    }
+    .news .more{
+        margin-top: 3rem;
+    }
+    .footer ul{
+        flex-direction: column;
+    }
+    .hometown .hometown-list .hometown-item .hometown-img img{
+        height: 10rem;
+    }
+    
+
+}
