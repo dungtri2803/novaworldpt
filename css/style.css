@@ -1030,92 +1030,139 @@ section{
     width: 100%;
 }
 /* florida */
-.florida{
+.products-detail{
     padding-top: 10rem;
 }
-.florida .florida-heading{
+.products-detail .products-detail-heading{
     margin-bottom: 3rem;
     text-align: center;
     border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
-.florida .florida-heading h1{
+.products-detail .products-detail-heading h1{
     font-size: 3rem;
     color: var(--black);
     font-weight: 700;
 }
-.florida .florida-heading h2{
+.products-detail .products-detail-heading h2{
     font-size: 2rem;
     font-weight: 500;
     color: var(--blue);
     margin-bottom: 1rem;
 }
-.florida .florida-title p{
+.products-detail .products-detail-title p{
     text-align: left;
     font-size: 1.5rem;
     font-weight: 500;
     color: var(--gray-dark);
     margin-bottom: 2rem;
 }
-.florida .florida-title img{
+.products-detail .products-detail-title img{
     width: 100%;
 }
-.florida .florida-list{
+.products-detail .products-detail-list{
     display: flex;
     flex-wrap: wrap;
     gap: 2rem;
 }
-.florida .florida-list .florida-item{
+.products-detail .products-detail-list .products-detail-item{
     flex: 1 1 30%;
     margin-top: 1rem;
 }
-.florida .florida-list .florida-item img{
+.products-detail .products-detail-list .products-detail-item img{
     width: 100%;
 }
-.florida .florida-list .florida-item ul li {
+.products-detail .products-detail-list .products-detail-item ul li {
     display: flex;
     padding: .5rem 0;
     align-items: center;
 }
-.florida .florida-list .florida-item ul li i{
+.products-detail .products-detail-list .products-detail-item ul li i{
     color: var(--blue);
     margin-right: .5rem;
     font-size: 2rem;
 }
-.florida .florida-list .florida-item ul li a{
+.products-detail .products-detail-list .products-detail-item ul li a{
     font-size: 1.5rem;
     color: var(--black);
     font-weight: 500;
     margin-top: 0.5rem;
 }
-.florida h2{
+.products-detail h2{
     font-size: 2rem;
     font-weight: 500;
     color: var(--blue);
     margin-top: 2rem;
 }
-.florida h1{
+.products-detail h1{
     font-size: 3rem;
     font-weight: 500;
     color: var(--blue);
     margin-top: 2rem;
 }
-.florida-img{
+.products-detail-img{
     width: 100%;
 }
-.florida img{
+.products-detail img{
     width: 100%;
     margin-top: 2rem;
 }
-.florida .florida-list .florida-item .florida-img img {
+.products-detail .products-detail-list .products-detail-item .products-detail-img img {
     width: 100%;
     height: 18rem;
     object-fit: cover;
     border-radius: .5rem;
 }
-.florida .florida-list .florida-item p{
+.products-detail .products-detail-list .products-detail-item p{
     text-align: center;
     font-size: 1.6rem;
     font-weight: 500;
     color: var(--gray-dark);
     margin-top: .5rem;
+}
+/* new detail */
+.news-detail{
+    padding-top: 10rem;
+}
+.news-detail .news-detail-heading{
+    margin-bottom: 3rem;
+    text-align: center;
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
+}
+.news-detail .news-detail-heading h1{
+    font-size: 3rem;
+    color: var(--black);
+    font-weight: 700;
+}
+.news-detail .news-detail-heading h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+.news-detail .news-detail-title p{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--gray-dark);
+    margin-bottom: 2rem;
+}
+.news-detail .news-detail-title img{
+    width: 100%;
+}
+.news-detail h2{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--blue);
+    margin-bottom: 1rem;
+}
+.news-detail p{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: var(--gray-dark);
+    margin-bottom: 2rem;
+}
+.news-detail img{
+    width: 100%;
+    margin-bottom: 1rem;
 }

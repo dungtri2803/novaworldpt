@@ -222,10 +222,10 @@
     .destination .destination-list .destination-item .destination-img img{
         height: 20rem;
     }
-    .florida .florida-list .florida-item .florida-img img{
+    .products-detail .products-detail-list .products-detail-item .products-detail-img img{
         height: 15rem;
     }
-    .florida .florida-list .florida-item{
+    .products-detail .products-detail-list .products-detail-item{
         flex: 1 1 40%;
     }
     
