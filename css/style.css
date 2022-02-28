@@ -226,7 +226,7 @@ section{
 .project .project-list .project-item ul li:nth-child(11){
     border-bottom: none;
 }
-.project .project-list .project-item ul li a{
+.project .project-list .project-item ul li{
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--black);
